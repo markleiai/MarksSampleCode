@@ -1,8 +1,10 @@
-﻿# Original sample code from docs.microsoft.com
+# Original sample code from docs.microsoft.com
 
+# Find in portal via workspace -> Agents management 
 # Replace with your Workspace ID
 $CustomerId = "<>"  
 
+# Find in portal via workspace -> Agents management 
 # Replace with your Primary Key
 $SharedKey = "<>"
 
