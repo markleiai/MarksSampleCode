@@ -10,7 +10,7 @@ from google.cloud import speech_v1
 client = speech_v1.SpeechClient()
 
 # The name of the audio file to transcribe
-gcs_uri = "gs://ml-store1/cnafiles/testout1mono.wav"
+gcs_uri = "gs://...../..files/testout1mono.wav"
 
 audio = speech_v1.RecognitionAudio(uri=gcs_uri)
 
